@@ -3,8 +3,8 @@ package com.example.lab4participation;
 public class Star extends Shape {
     private String color;
 
-    public Star(int x, int y, String color) {
-        super(x, y);
+    public Star(String color) {
+        super(0, 0);
         this.color = color;
     }
 
